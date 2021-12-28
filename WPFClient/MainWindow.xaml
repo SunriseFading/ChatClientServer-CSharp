@@ -7,10 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ListBox x:Name="MessagesLB" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,66,110"/>
-        <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Margin="10,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="312"/>
-        <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="623"/>
-        <Button Content="Отправить" HorizontalAlignment="Left" Margin="657,354,0,0" VerticalAlignment="Top" Height="40" Width="77"/>
+        <ListBox x:Name="MessagesLB" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,10,116" SelectionChanged="MessagesLB_SelectionChanged"/>
+        <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Margin="10,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="202"/>
+        <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Margin="10,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="623" Height="39"/>
+        <Button Content="Отправить" HorizontalAlignment="Left" Margin="669,359,0,0" VerticalAlignment="Top" Height="49" Width="96" Click="Button_Click" RenderTransformOrigin="0.566,0.005"/>
+        <Label Content="Имя пользователя" HorizontalAlignment="Left" Margin="10,318,0,0" VerticalAlignment="Top" Height="27"/>
+        <Label Content="Текст сообщения" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" Height="28"/>
 
     </Grid>
 </Window>
