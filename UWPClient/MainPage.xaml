@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="UWPClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="0,0,10,10">
+        <Button Content="Отправить" Margin="1252,714,0,0" VerticalAlignment="Top" Height="57" Width="150" Click="Button_Click"/>
+        <ListBox x:Name="MessagesLB" Margin="44,34,38,361" SelectionChanged="MessagesLB_SelectionChanged"/>
+        <TextBox x:Name="UserNameTB" HorizontalAlignment="Left" Margin="44,663,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="335" Height="44"/>
+        <TextBox x:Name="MessageTB" HorizontalAlignment="Left" Margin="44,743,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="1035" Height="184"/>
+
+    </Grid>
+</Page>

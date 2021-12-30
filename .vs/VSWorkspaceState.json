@@ -1,8 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WindowsFormsClient"
+    "\\ConsoleClient"
   ],
-  "SelectedNode": "\\WindowsFormsClient\\WindowsFormsClient.csproj",
+  "SelectedNode": "\\ConsoleClient\\Messanger.sln",
   "PreviewInSolutionExplorer": false
 }
